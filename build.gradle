@@ -1,0 +1,101 @@
+plugins {
+    id 'net.neoforged.moddev' version '1.0.20'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url 'https://maven.minecraftschurli.at/maven-public' }
+    maven { url 'https://maven.blamejared.com/' }
+    maven { url 'https://cursemaven.com' }
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+}
+
+dependencies {
+    // Uncomment next line for local testing
+    implementation files("libs/bibliocraft-${mc_version}-${bc_version}.jar")
+
+    //compileOnly "com.github.minecraftschurlimods:bibliocraft:${mc_version}-${bc_version}:api"
+    //runtimeOnly "com.github.minecraftschurlimods:bibliocraft:${mc_version}-${bc_version}"
+    compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
+    runtimeOnly "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+
+    // Biomes O' Plenty
+    implementation "curse.maven:biomes-o-plenty-220318:6152943"
+    implementation "curse.maven:glitchcore-955399:5660740"
+    implementation "curse.maven:terrablender-neoforge-940057:6054947"
+    // Biomes We've Gone
+    implementation "curse.maven:oh-the-biomes-weve-gone-1070751:6298837"
+    implementation "curse.maven:corgilib-693313:6002859"
+    implementation "curse.maven:geckolib-388172:6304958"
+    implementation "curse.maven:oh-the-trees-youll-grow-962544:6314894"
+    // Regions Unexplored
+    implementation "curse.maven:regions-unexplored-659110:6273893"
+}
+
+neoForge {
+    version = project.neo_version
+
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+
+    runs {
+        configureEach {
+            systemProperty 'forge.logging.console.level', 'debug'
+        }
+        client {
+            client()
+        }
+        data {
+            data()
+            mods = [neoForge.mods."${mod_id}"]
+            programArguments.addAll '--mod', "${mod_id}", '--all',
+                    '--output',       file('src/generated/resources/').getAbsolutePath(),
+                    '--existing',     file('src/main/resources/').getAbsolutePath(),
+                    '--existing-mod', 'bibliocraft',
+                    '--existing-mod', 'biomesoplenty',
+                    '--existing-mod', 'biomeswevegone',
+                    '--existing-mod', 'regions_unexplored'
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+    }
+}
+
+tasks.named('processResources', ProcessResources) {
+    var replaceProperties = [
+            mc_version       : mc_version,
+            mc_version_range : mc_version_range,
+            neo_version      : neo_version,
+            neo_version_range: neo_version_range,
+            bc_version       : bc_version,
+            bc_version_range : bc_version_range,
+            loader_version   : loader_version,
+            mod_id           : mod_id,
+            mod_version      : mod_version,
+            mod_name         : mod_name,
+            mod_authors      : mod_authors,
+            mod_credits      : mod_credits,
+            mod_logo         : mod_logo,
+            mod_description  : mod_description,
+            mod_license      : mod_license,
+    ]
+    inputs.properties replaceProperties
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand replaceProperties
+    }
+}
+
+jar {
+    archiveBaseName = mod_id
+    archiveVersion = "${mc_version}-${mod_version}"
+    processResources.exclude('**/.cache/**')
+}
