@@ -13,7 +13,7 @@ public class RegionsUnexploredMod extends AbstractMod {
 
     @Override
     protected void registerWoodTypes(RegisterBibliocraftWoodTypesEvent event) {
-        woodType(event, "alpha", "block/alpha_oak_planks",            RuWoodTypes.ALPHA,            RuBlocks.ALPHA_PLANKS,            RuBlocks.ALPHA_SLAB,            RuBlocks.ALPHA_STAIRS);
+        woodType(event, "alpha", "block/alpha_oak_planks", RuWoodTypes.ALPHA, RuBlocks.ALPHA_PLANKS, RuBlocks.ALPHA_SLAB, RuBlocks.ALPHA_STAIRS);
         woodType(event, "baobab",           RuWoodTypes.BAOBAB,           RuBlocks.BAOBAB_PLANKS,           RuBlocks.BAOBAB_SLAB,           RuBlocks.BAOBAB_STAIRS);
         woodType(event, "blackwood",        RuWoodTypes.BLACKWOOD,        RuBlocks.BLACKWOOD_PLANKS,        RuBlocks.BLACKWOOD_SLAB,        RuBlocks.BLACKWOOD_STAIRS);
         woodType(event, "blue_bioshroom",   RuWoodTypes.BLUE_BIOSHROOM,   RuBlocks.BLUE_BIOSHROOM_PLANKS,   RuBlocks.BLUE_BIOSHROOM_SLAB,   RuBlocks.BLUE_BIOSHROOM_STAIRS);
