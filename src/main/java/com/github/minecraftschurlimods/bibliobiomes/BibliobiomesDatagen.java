@@ -15,7 +15,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, modid = Bibliobiomes.MOD_ID)
+@EventBusSubscriber(modid = Bibliobiomes.MOD_ID)
 public final class BibliobiomesDatagen {
     @SubscribeEvent
     private static void gatherData(GatherDataEvent event) {
