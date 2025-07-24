@@ -16,22 +16,22 @@ sourceSets.main.resources {
 
 dependencies {
     // Uncomment next line for local testing
-    implementation files("libs/bibliocraft-${mc_version}-${bc_version}.jar")
+    //implementation files("libs/bibliocraft-${mc_version}-${bc_version}.jar")
 
-    //compileOnly "com.github.minecraftschurlimods:bibliocraft:${mc_version}-${bc_version}:api"
-    //runtimeOnly "com.github.minecraftschurlimods:bibliocraft:${mc_version}-${bc_version}"
+    compileOnly "com.github.minecraftschurlimods:bibliocraft:${mc_version}-${bc_version}:api"
+    runtimeOnly "com.github.minecraftschurlimods:bibliocraft:${mc_version}-${bc_version}"
     compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
     runtimeOnly "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
 
     // Biomes O' Plenty
-    implementation "curse.maven:biomes-o-plenty-220318:6152943"
+    implementation "curse.maven:biomes-o-plenty-220318:6631072"
     implementation "curse.maven:glitchcore-955399:5660740"
     implementation "curse.maven:terrablender-neoforge-940057:6054947"
     // Biomes We've Gone
-    implementation "curse.maven:oh-the-biomes-weve-gone-1070751:6298837"
-    implementation "curse.maven:corgilib-693313:6002859"
-    implementation "curse.maven:geckolib-388172:6304958"
-    implementation "curse.maven:oh-the-trees-youll-grow-962544:6314894"
+    implementation "curse.maven:oh-the-biomes-weve-gone-1070751:6706596"
+    implementation "curse.maven:corgilib-693313:6616813"
+    implementation "curse.maven:geckolib-388172:6659026"
+    implementation "curse.maven:oh-the-trees-youll-grow-962544:6607561"
     // Regions Unexplored
     implementation "curse.maven:regions-unexplored-659110:6273893"
 }
