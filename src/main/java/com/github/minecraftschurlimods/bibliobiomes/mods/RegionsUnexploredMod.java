@@ -4,6 +4,7 @@ import com.github.minecraftschurlimods.bibliocraft.api.woodtype.RegisterBibliocr
 import com.github.minecraftschurlimods.bibliobiomes.AbstractMod;
 import net.neoforged.bus.api.IEventBus;
 import net.regions_unexplored.block.RuBlocks;
+import net.regions_unexplored.block.set.WoodSet;
 import net.regions_unexplored.data.block.RuWoodTypes;
 
 public class RegionsUnexploredMod extends AbstractMod {
@@ -13,28 +14,28 @@ public class RegionsUnexploredMod extends AbstractMod {
 
     @Override
     protected void registerWoodTypes(RegisterBibliocraftWoodTypesEvent event) {
-        woodType(event, "alpha", "block/alpha_oak_planks", RuWoodTypes.ALPHA, RuBlocks.ALPHA_PLANKS, RuBlocks.ALPHA_SLAB, RuBlocks.ALPHA_STAIRS);
-        woodType(event, "baobab",           RuWoodTypes.BAOBAB,           RuBlocks.BAOBAB_PLANKS,           RuBlocks.BAOBAB_SLAB,           RuBlocks.BAOBAB_STAIRS);
-        woodType(event, "blackwood",        RuWoodTypes.BLACKWOOD,        RuBlocks.BLACKWOOD_PLANKS,        RuBlocks.BLACKWOOD_SLAB,        RuBlocks.BLACKWOOD_STAIRS);
-        woodType(event, "blue_bioshroom",   RuWoodTypes.BLUE_BIOSHROOM,   RuBlocks.BLUE_BIOSHROOM_PLANKS,   RuBlocks.BLUE_BIOSHROOM_SLAB,   RuBlocks.BLUE_BIOSHROOM_STAIRS);
-        woodType(event, "brimwood",         RuWoodTypes.BRIMWOOD,         RuBlocks.BRIMWOOD_PLANKS,         RuBlocks.BRIMWOOD_SLAB,         RuBlocks.BRIMWOOD_STAIRS);
-        woodType(event, "cobalt",           RuWoodTypes.COBALT,           RuBlocks.COBALT_PLANKS,           RuBlocks.COBALT_SLAB,           RuBlocks.COBALT_STAIRS);
-        woodType(event, "cypress",          RuWoodTypes.CYPRESS,          RuBlocks.CYPRESS_PLANKS,          RuBlocks.CYPRESS_SLAB,          RuBlocks.CYPRESS_STAIRS);
-        woodType(event, "dead",             RuWoodTypes.DEAD,             RuBlocks.DEAD_PLANKS,             RuBlocks.DEAD_SLAB,             RuBlocks.DEAD_STAIRS);
-        woodType(event, "eucalyptus",       RuWoodTypes.EUCALYPTUS,       RuBlocks.EUCALYPTUS_PLANKS,       RuBlocks.EUCALYPTUS_SLAB,       RuBlocks.EUCALYPTUS_STAIRS);
-        woodType(event, "green_bioshroom",  RuWoodTypes.GREEN_BIOSHROOM,  RuBlocks.GREEN_BIOSHROOM_PLANKS,  RuBlocks.GREEN_BIOSHROOM_SLAB,  RuBlocks.GREEN_BIOSHROOM_STAIRS);
-        woodType(event, "joshua",           RuWoodTypes.JOSHUA,           RuBlocks.JOSHUA_PLANKS,           RuBlocks.JOSHUA_SLAB,           RuBlocks.JOSHUA_STAIRS);
-        woodType(event, "kapok",            RuWoodTypes.KAPOK,            RuBlocks.KAPOK_PLANKS,            RuBlocks.KAPOK_SLAB,            RuBlocks.KAPOK_STAIRS);
-        woodType(event, "larch",            RuWoodTypes.LARCH,            RuBlocks.LARCH_PLANKS,            RuBlocks.LARCH_SLAB,            RuBlocks.LARCH_STAIRS);
-        woodType(event, "magnolia",         RuWoodTypes.MAGNOLIA,         RuBlocks.MAGNOLIA_PLANKS,         RuBlocks.MAGNOLIA_SLAB,         RuBlocks.MAGNOLIA_STAIRS);
-        woodType(event, "maple",            RuWoodTypes.MAPLE,            RuBlocks.MAPLE_PLANKS,            RuBlocks.MAPLE_SLAB,            RuBlocks.MAPLE_STAIRS);
-        woodType(event, "mauve",            RuWoodTypes.MAUVE,            RuBlocks.MAUVE_PLANKS,            RuBlocks.MAUVE_SLAB,            RuBlocks.MAUVE_STAIRS);
-        woodType(event, "palm",             RuWoodTypes.PALM,             RuBlocks.PALM_PLANKS,             RuBlocks.PALM_SLAB,             RuBlocks.PALM_STAIRS);
-        woodType(event, "pine",             RuWoodTypes.PINE,             RuBlocks.PINE_PLANKS,             RuBlocks.PINE_SLAB,             RuBlocks.PINE_STAIRS);
-        woodType(event, "pink_bioshroom",   RuWoodTypes.PINK_BIOSHROOM,   RuBlocks.PINK_BIOSHROOM_PLANKS,   RuBlocks.PINK_BIOSHROOM_SLAB,   RuBlocks.PINK_BIOSHROOM_STAIRS);
-        woodType(event, "redwood",          RuWoodTypes.REDWOOD,          RuBlocks.REDWOOD_PLANKS,          RuBlocks.REDWOOD_SLAB,          RuBlocks.REDWOOD_STAIRS);
-        woodType(event, "socotra",          RuWoodTypes.SOCOTRA,          RuBlocks.SOCOTRA_PLANKS,          RuBlocks.SOCOTRA_SLAB,          RuBlocks.SOCOTRA_STAIRS);
-        woodType(event, "willow",           RuWoodTypes.WILLOW,           RuBlocks.WILLOW_PLANKS,           RuBlocks.WILLOW_SLAB,           RuBlocks.WILLOW_STAIRS);
-        woodType(event, "yellow_bioshroom", RuWoodTypes.YELLOW_BIOSHROOM, RuBlocks.YELLOW_BIOSHROOM_PLANKS, RuBlocks.YELLOW_BIOSHROOM_SLAB, RuBlocks.YELLOW_BIOSHROOM_STAIRS);
+        woodType(event, "alpha", "block/alpha_oak_planks", RuWoodTypes.ALPHA, RuBlocks.ALPHA_WOOD_SET::getPlanks, RuBlocks.ALPHA_WOOD_SET::getSlab, RuBlocks.ALPHA_WOOD_SET::getStairs);
+        woodType(event, "baobab",           RuWoodTypes.BAOBAB,           RuBlocks.BAOBAB_WOOD_SET::getPlanks,           RuBlocks.BAOBAB_WOOD_SET::getSlab,           RuBlocks.BAOBAB_WOOD_SET::getStairs);
+        woodType(event, "blackwood",        RuWoodTypes.BLACKWOOD,        RuBlocks.BLACKWOOD_WOOD_SET::getPlanks,        RuBlocks.BLACKWOOD_WOOD_SET::getSlab,        RuBlocks.BLACKWOOD_WOOD_SET::getStairs);
+        woodType(event, "blue_bioshroom",   RuWoodTypes.BLUE_BIOSHROOM,   RuBlocks.BLUE_BIOSHROOM_WOOD_SET::getPlanks,   RuBlocks.BLUE_BIOSHROOM_WOOD_SET::getSlab,   RuBlocks.BLUE_BIOSHROOM_WOOD_SET::getStairs);
+        woodType(event, "brimwood",         RuWoodTypes.BRIMWOOD,         RuBlocks.BRIMWOOD_WOOD_SET::getPlanks,         RuBlocks.BRIMWOOD_WOOD_SET::getSlab,         RuBlocks.BRIMWOOD_WOOD_SET::getStairs);
+        woodType(event, "cobalt",           RuWoodTypes.COBALT,           RuBlocks.COBALT_WOOD_SET::getPlanks,           RuBlocks.COBALT_WOOD_SET::getSlab,           RuBlocks.COBALT_WOOD_SET::getStairs);
+        woodType(event, "cypress",          RuWoodTypes.CYPRESS,          RuBlocks.CYPRESS_WOOD_SET::getPlanks,          RuBlocks.CYPRESS_WOOD_SET::getSlab,          RuBlocks.CYPRESS_WOOD_SET::getStairs);
+        woodType(event, "dead",             RuWoodTypes.DEAD,             RuBlocks.DEAD_WOOD_SET::getPlanks,             RuBlocks.DEAD_WOOD_SET::getSlab,             RuBlocks.DEAD_WOOD_SET::getStairs);
+        woodType(event, "eucalyptus",       RuWoodTypes.EUCALYPTUS,       RuBlocks.EUCALYPTUS_WOOD_SET::getPlanks,       RuBlocks.EUCALYPTUS_WOOD_SET::getSlab,       RuBlocks.EUCALYPTUS_WOOD_SET::getStairs);
+        woodType(event, "green_bioshroom",  RuWoodTypes.GREEN_BIOSHROOM,  RuBlocks.GREEN_BIOSHROOM_WOOD_SET::getPlanks,  RuBlocks.GREEN_BIOSHROOM_WOOD_SET::getSlab,  RuBlocks.GREEN_BIOSHROOM_WOOD_SET::getStairs);
+        woodType(event, "joshua",           RuWoodTypes.JOSHUA,           RuBlocks.JOSHUA_WOOD_SET::getPlanks,           RuBlocks.JOSHUA_WOOD_SET::getSlab,           RuBlocks.JOSHUA_WOOD_SET::getStairs);
+        woodType(event, "kapok",            RuWoodTypes.KAPOK,            RuBlocks.KAPOK_WOOD_SET::getPlanks,            RuBlocks.KAPOK_WOOD_SET::getSlab,            RuBlocks.KAPOK_WOOD_SET::getStairs);
+        woodType(event, "larch",            RuWoodTypes.LARCH,            RuBlocks.LARCH_WOOD_SET::getPlanks,            RuBlocks.LARCH_WOOD_SET::getSlab,            RuBlocks.LARCH_WOOD_SET::getStairs);
+        woodType(event, "magnolia",         RuWoodTypes.MAGNOLIA,         RuBlocks.MAGNOLIA_WOOD_SET::getPlanks,         RuBlocks.MAGNOLIA_WOOD_SET::getSlab,         RuBlocks.MAGNOLIA_WOOD_SET::getStairs);
+        woodType(event, "maple",            RuWoodTypes.MAPLE,            RuBlocks.MAPLE_WOOD_SET::getPlanks,            RuBlocks.MAPLE_WOOD_SET::getSlab,            RuBlocks.MAPLE_WOOD_SET::getStairs);
+        woodType(event, "mauve",            RuWoodTypes.MAUVE,            RuBlocks.MAUVE_WOOD_SET::getPlanks,            RuBlocks.MAUVE_WOOD_SET::getSlab,            RuBlocks.MAUVE_WOOD_SET::getStairs);
+        woodType(event, "palm",             RuWoodTypes.PALM,             RuBlocks.PALM_WOOD_SET::getPlanks,             RuBlocks.PALM_WOOD_SET::getSlab,             RuBlocks.PALM_WOOD_SET::getStairs);
+        woodType(event, "pine",             RuWoodTypes.PINE,             RuBlocks.PINE_WOOD_SET::getPlanks,             RuBlocks.PINE_WOOD_SET::getSlab,             RuBlocks.PINE_WOOD_SET::getStairs);
+        woodType(event, "pink_bioshroom",   RuWoodTypes.PINK_BIOSHROOM,   RuBlocks.PINK_BIOSHROOM_WOOD_SET::getPlanks,   RuBlocks.PINK_BIOSHROOM_WOOD_SET::getSlab,   RuBlocks.PINK_BIOSHROOM_WOOD_SET::getStairs);
+        woodType(event, "redwood",          RuWoodTypes.REDWOOD,          RuBlocks.REDWOOD_WOOD_SET::getPlanks,          RuBlocks.REDWOOD_WOOD_SET::getSlab,          RuBlocks.REDWOOD_WOOD_SET::getStairs);
+        woodType(event, "socotra",          RuWoodTypes.SOCOTRA,          RuBlocks.SOCOTRA_WOOD_SET::getPlanks,          RuBlocks.SOCOTRA_WOOD_SET::getSlab,          RuBlocks.SOCOTRA_WOOD_SET::getStairs);
+        woodType(event, "willow",           RuWoodTypes.WILLOW,           RuBlocks.WILLOW_WOOD_SET::getPlanks,           RuBlocks.WILLOW_WOOD_SET::getSlab,           RuBlocks.WILLOW_WOOD_SET::getStairs);
+        woodType(event, "yellow_bioshroom", RuWoodTypes.YELLOW_BIOSHROOM, RuBlocks.YELLOW_BIOSHROOM_WOOD_SET::getPlanks, RuBlocks.YELLOW_BIOSHROOM_WOOD_SET::getSlab, RuBlocks.YELLOW_BIOSHROOM_WOOD_SET::getStairs);
     }
 }
