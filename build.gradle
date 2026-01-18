@@ -33,7 +33,7 @@ dependencies {
     implementation "curse.maven:geckolib-388172:6659026"
     implementation "curse.maven:oh-the-trees-youll-grow-962544:6607561"
     // Regions Unexplored
-    implementation "curse.maven:regions-unexplored-659110:6273893"
+    implementation "curse.maven:regions-unexplored-659110:7461662"
 }
 
 neoForge {
