@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:shelves",
   "key": {
-    "P": {
-      "item": "biomesoplenty:dead_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:dead_slab"
-    }
+    "P": "biomesoplenty:dead_planks",
+    "S": "biomesoplenty:dead_slab"
   },
   "pattern": [
     "SSS",
@@ -22,7 +18,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_dead_shelf"
   }
 }

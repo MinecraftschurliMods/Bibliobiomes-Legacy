@@ -9,16 +9,13 @@
   "category": "misc",
   "group": "bibliocraft:labels",
   "key": {
-    "S": {
-      "item": "biomesoplenty:maple_slab"
-    }
+    "S": "biomesoplenty:maple_slab"
   },
   "pattern": [
     "SSS",
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_maple_label"
   }
 }

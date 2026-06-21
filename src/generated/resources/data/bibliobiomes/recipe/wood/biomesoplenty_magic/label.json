@@ -9,16 +9,13 @@
   "category": "misc",
   "group": "bibliocraft:labels",
   "key": {
-    "S": {
-      "item": "biomesoplenty:magic_slab"
-    }
+    "S": "biomesoplenty:magic_slab"
   },
   "pattern": [
     "SSS",
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_magic_label"
   }
 }

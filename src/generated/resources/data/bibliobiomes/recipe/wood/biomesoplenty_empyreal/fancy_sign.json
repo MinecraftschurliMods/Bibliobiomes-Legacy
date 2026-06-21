@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:fancy_sign",
   "key": {
-    "#": {
-      "item": "minecraft:paper"
-    },
-    "P": {
-      "item": "biomesoplenty:empyreal_planks"
-    },
-    "R": {
-      "tag": "c:rods/wooden"
-    }
+    "#": "minecraft:paper",
+    "P": "biomesoplenty:empyreal_planks",
+    "R": "#c:rods/wooden"
   },
   "pattern": [
     "P#P",
@@ -25,7 +19,6 @@
     " R "
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_empyreal_fancy_sign"
   }
 }

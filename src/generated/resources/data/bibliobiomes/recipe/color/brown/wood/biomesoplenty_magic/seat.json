@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:seats",
   "key": {
-    "R": {
-      "tag": "c:rods/wooden"
-    },
-    "S": {
-      "item": "biomesoplenty:magic_slab"
-    },
-    "W": {
-      "item": "minecraft:brown_wool"
-    }
+    "R": "#c:rods/wooden",
+    "S": "biomesoplenty:magic_slab",
+    "W": "minecraft:brown_wool"
   },
   "pattern": [
     " W ",
@@ -25,7 +19,6 @@
     "RSR"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:brown_biomesoplenty_magic_seat"
   }
 }

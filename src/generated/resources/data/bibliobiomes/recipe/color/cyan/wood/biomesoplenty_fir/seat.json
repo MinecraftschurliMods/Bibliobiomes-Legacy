@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:seats",
   "key": {
-    "R": {
-      "tag": "c:rods/wooden"
-    },
-    "S": {
-      "item": "biomesoplenty:fir_slab"
-    },
-    "W": {
-      "item": "minecraft:cyan_wool"
-    }
+    "R": "#c:rods/wooden",
+    "S": "biomesoplenty:fir_slab",
+    "W": "minecraft:cyan_wool"
   },
   "pattern": [
     " W ",
@@ -25,7 +19,6 @@
     "RSR"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:cyan_biomesoplenty_fir_seat"
   }
 }

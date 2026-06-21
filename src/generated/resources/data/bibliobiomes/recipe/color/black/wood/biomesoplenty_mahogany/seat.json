@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:seats",
   "key": {
-    "R": {
-      "tag": "c:rods/wooden"
-    },
-    "S": {
-      "item": "biomesoplenty:mahogany_slab"
-    },
-    "W": {
-      "item": "minecraft:black_wool"
-    }
+    "R": "#c:rods/wooden",
+    "S": "biomesoplenty:mahogany_slab",
+    "W": "minecraft:black_wool"
   },
   "pattern": [
     " W ",
@@ -25,7 +19,6 @@
     "RSR"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:black_biomesoplenty_mahogany_seat"
   }
 }

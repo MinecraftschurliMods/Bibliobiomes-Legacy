@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:tool_racks",
   "key": {
-    "#": {
-      "tag": "c:ingots/iron"
-    },
-    "S": {
-      "item": "biomesoplenty:mahogany_slab"
-    }
+    "#": "#c:ingots/iron",
+    "S": "biomesoplenty:mahogany_slab"
   },
   "pattern": [
     "SSS",
@@ -22,7 +18,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_mahogany_tool_rack"
   }
 }

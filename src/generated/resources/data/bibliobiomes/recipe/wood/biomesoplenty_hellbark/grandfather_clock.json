@@ -9,15 +9,10 @@
   "category": "misc",
   "group": "bibliocraft:grandfather_clock",
   "ingredients": [
-    {
-      "item": "bibliocraft:biomesoplenty_hellbark_fancy_clock"
-    },
-    {
-      "item": "bibliocraft:biomesoplenty_hellbark_fancy_clock"
-    }
+    "bibliocraft:biomesoplenty_hellbark_fancy_clock",
+    "bibliocraft:biomesoplenty_hellbark_fancy_clock"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_hellbark_grandfather_clock"
   }
 }

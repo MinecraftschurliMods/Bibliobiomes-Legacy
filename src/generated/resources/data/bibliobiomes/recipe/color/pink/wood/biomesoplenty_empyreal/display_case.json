@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:display_cases",
   "key": {
-    "G": {
-      "tag": "c:glass_blocks"
-    },
-    "S": {
-      "item": "biomesoplenty:empyreal_slab"
-    },
-    "W": {
-      "item": "minecraft:pink_wool"
-    }
+    "G": "#c:glass_blocks",
+    "S": "biomesoplenty:empyreal_slab",
+    "W": "minecraft:pink_wool"
   },
   "pattern": [
     "SGS",
@@ -25,7 +19,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:pink_biomesoplenty_empyreal_display_case"
   }
 }

@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:display_cases",
   "key": {
-    "G": {
-      "tag": "c:glass_blocks"
-    },
-    "S": {
-      "item": "biomesoplenty:palm_slab"
-    },
-    "W": {
-      "item": "minecraft:light_gray_wool"
-    }
+    "G": "#c:glass_blocks",
+    "S": "biomesoplenty:palm_slab",
+    "W": "minecraft:light_gray_wool"
   },
   "pattern": [
     "SGS",
@@ -25,7 +19,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:light_gray_biomesoplenty_palm_display_case"
   }
 }

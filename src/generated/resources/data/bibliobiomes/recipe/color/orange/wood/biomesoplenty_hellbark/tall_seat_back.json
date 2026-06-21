@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:tall_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:orange_biomesoplenty_hellbark_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:hellbark_slab"
-    }
+    "#": "bibliocraft:orange_biomesoplenty_hellbark_flat_seat_back",
+    "S": "biomesoplenty:hellbark_slab"
   },
   "pattern": [
     "S",
     "#"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:orange_biomesoplenty_hellbark_tall_seat_back"
   }
 }

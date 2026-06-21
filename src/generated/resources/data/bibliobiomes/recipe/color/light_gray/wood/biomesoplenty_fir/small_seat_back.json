@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:small_seat_backs",
   "key": {
-    "S": {
-      "item": "biomesoplenty:fir_slab"
-    },
-    "W": {
-      "item": "minecraft:light_gray_wool"
-    }
+    "S": "biomesoplenty:fir_slab",
+    "W": "minecraft:light_gray_wool"
   },
   "pattern": [
     "W",
     "S"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:light_gray_biomesoplenty_fir_small_seat_back"
   }
 }

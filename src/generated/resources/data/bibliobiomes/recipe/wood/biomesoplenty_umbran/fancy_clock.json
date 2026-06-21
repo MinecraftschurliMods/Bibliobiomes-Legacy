@@ -9,18 +9,10 @@
   "category": "misc",
   "group": "bibliocraft:fancy_clock",
   "key": {
-    "C": {
-      "item": "minecraft:clock"
-    },
-    "I": {
-      "tag": "c:ingots/copper"
-    },
-    "R": {
-      "tag": "c:rods/wooden"
-    },
-    "S": {
-      "item": "biomesoplenty:umbran_slab"
-    }
+    "C": "minecraft:clock",
+    "I": "#c:ingots/copper",
+    "R": "#c:rods/wooden",
+    "S": "biomesoplenty:umbran_slab"
   },
   "pattern": [
     "SCS",
@@ -28,7 +20,6 @@
     "SIS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_umbran_fancy_clock"
   }
 }

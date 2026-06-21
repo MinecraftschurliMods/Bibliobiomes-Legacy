@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:tool_racks",
   "key": {
-    "#": {
-      "tag": "c:ingots/iron"
-    },
-    "S": {
-      "item": "biomesoplenty:jacaranda_slab"
-    }
+    "#": "#c:ingots/iron",
+    "S": "biomesoplenty:jacaranda_slab"
   },
   "pattern": [
     "SSS",
@@ -22,7 +18,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_jacaranda_tool_rack"
   }
 }

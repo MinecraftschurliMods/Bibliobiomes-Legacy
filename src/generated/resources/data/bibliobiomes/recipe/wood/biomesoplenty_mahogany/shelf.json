@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:shelves",
   "key": {
-    "P": {
-      "item": "biomesoplenty:mahogany_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:mahogany_slab"
-    }
+    "P": "biomesoplenty:mahogany_planks",
+    "S": "biomesoplenty:mahogany_slab"
   },
   "pattern": [
     "SSS",
@@ -22,7 +18,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_mahogany_shelf"
   }
 }

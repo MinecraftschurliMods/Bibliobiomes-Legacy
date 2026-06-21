@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:bookcases",
   "key": {
-    "P": {
-      "item": "biomesoplenty:magic_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:magic_slab"
-    }
+    "P": "biomesoplenty:magic_planks",
+    "S": "biomesoplenty:magic_slab"
   },
   "pattern": [
     "PSP",
@@ -22,7 +18,6 @@
     "PSP"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_magic_bookcase"
   }
 }

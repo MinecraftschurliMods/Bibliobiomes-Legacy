@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:flat_seat_backs",
   "key": {
-    "R": {
-      "tag": "c:rods/wooden"
-    },
-    "S": {
-      "item": "biomesoplenty:hellbark_slab"
-    },
-    "W": {
-      "item": "minecraft:light_gray_wool"
-    }
+    "R": "#c:rods/wooden",
+    "S": "biomesoplenty:hellbark_slab",
+    "W": "minecraft:light_gray_wool"
   },
   "pattern": [
     "RWR",
@@ -25,7 +19,6 @@
     "R R"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:light_gray_biomesoplenty_hellbark_flat_seat_back"
   }
 }

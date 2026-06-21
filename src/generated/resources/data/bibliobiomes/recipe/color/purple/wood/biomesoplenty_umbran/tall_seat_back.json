@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:tall_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:purple_biomesoplenty_umbran_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:umbran_slab"
-    }
+    "#": "bibliocraft:purple_biomesoplenty_umbran_flat_seat_back",
+    "S": "biomesoplenty:umbran_slab"
   },
   "pattern": [
     "S",
     "#"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:purple_biomesoplenty_umbran_tall_seat_back"
   }
 }

@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:tall_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:light_blue_biomesoplenty_pine_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:pine_slab"
-    }
+    "#": "bibliocraft:light_blue_biomesoplenty_pine_flat_seat_back",
+    "S": "biomesoplenty:pine_slab"
   },
   "pattern": [
     "S",
     "#"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:light_blue_biomesoplenty_pine_tall_seat_back"
   }
 }

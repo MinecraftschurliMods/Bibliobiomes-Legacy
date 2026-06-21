@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:tall_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:brown_biomesoplenty_fir_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:fir_slab"
-    }
+    "#": "bibliocraft:brown_biomesoplenty_fir_flat_seat_back",
+    "S": "biomesoplenty:fir_slab"
   },
   "pattern": [
     "S",
     "#"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:brown_biomesoplenty_fir_tall_seat_back"
   }
 }

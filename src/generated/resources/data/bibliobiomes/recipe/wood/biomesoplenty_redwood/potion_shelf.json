@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:potion_shelves",
   "key": {
-    "#": {
-      "item": "minecraft:glass_bottle"
-    },
-    "P": {
-      "item": "biomesoplenty:redwood_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:redwood_slab"
-    }
+    "#": "minecraft:glass_bottle",
+    "P": "biomesoplenty:redwood_planks",
+    "S": "biomesoplenty:redwood_slab"
   },
   "pattern": [
     "SSS",
@@ -25,7 +19,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_redwood_potion_shelf"
   }
 }

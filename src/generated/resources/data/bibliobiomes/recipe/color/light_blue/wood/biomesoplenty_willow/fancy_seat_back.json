@@ -9,18 +9,13 @@
   "category": "misc",
   "group": "bibliocraft:fancy_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:light_blue_biomesoplenty_willow_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:willow_slab"
-    }
+    "#": "bibliocraft:light_blue_biomesoplenty_willow_flat_seat_back",
+    "S": "biomesoplenty:willow_slab"
   },
   "pattern": [
     "S#S"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:light_blue_biomesoplenty_willow_fancy_seat_back"
   }
 }

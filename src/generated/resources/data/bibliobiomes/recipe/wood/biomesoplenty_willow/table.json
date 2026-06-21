@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:tables",
   "key": {
-    "P": {
-      "item": "biomesoplenty:willow_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:willow_slab"
-    }
+    "P": "biomesoplenty:willow_planks",
+    "S": "biomesoplenty:willow_slab"
   },
   "pattern": [
     "SSS",
@@ -22,7 +18,6 @@
     " P "
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_willow_table"
   }
 }

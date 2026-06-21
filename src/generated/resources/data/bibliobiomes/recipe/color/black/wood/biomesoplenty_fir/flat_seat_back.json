@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:flat_seat_backs",
   "key": {
-    "R": {
-      "tag": "c:rods/wooden"
-    },
-    "S": {
-      "item": "biomesoplenty:fir_slab"
-    },
-    "W": {
-      "item": "minecraft:black_wool"
-    }
+    "R": "#c:rods/wooden",
+    "S": "biomesoplenty:fir_slab",
+    "W": "minecraft:black_wool"
   },
   "pattern": [
     "RWR",
@@ -25,7 +19,6 @@
     "R R"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:black_biomesoplenty_fir_flat_seat_back"
   }
 }

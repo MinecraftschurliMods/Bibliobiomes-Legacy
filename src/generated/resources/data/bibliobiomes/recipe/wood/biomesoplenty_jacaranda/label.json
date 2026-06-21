@@ -9,16 +9,13 @@
   "category": "misc",
   "group": "bibliocraft:labels",
   "key": {
-    "S": {
-      "item": "biomesoplenty:jacaranda_slab"
-    }
+    "S": "biomesoplenty:jacaranda_slab"
   },
   "pattern": [
     "SSS",
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_jacaranda_label"
   }
 }

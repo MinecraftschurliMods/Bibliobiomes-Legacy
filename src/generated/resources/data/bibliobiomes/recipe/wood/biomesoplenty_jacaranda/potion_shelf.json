@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:potion_shelves",
   "key": {
-    "#": {
-      "item": "minecraft:glass_bottle"
-    },
-    "P": {
-      "item": "biomesoplenty:jacaranda_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:jacaranda_slab"
-    }
+    "#": "minecraft:glass_bottle",
+    "P": "biomesoplenty:jacaranda_planks",
+    "S": "biomesoplenty:jacaranda_slab"
   },
   "pattern": [
     "SSS",
@@ -25,7 +19,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_jacaranda_potion_shelf"
   }
 }

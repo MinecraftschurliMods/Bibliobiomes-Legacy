@@ -9,18 +9,13 @@
   "category": "misc",
   "group": "bibliocraft:fancy_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:yellow_biomesoplenty_pine_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:pine_slab"
-    }
+    "#": "bibliocraft:yellow_biomesoplenty_pine_flat_seat_back",
+    "S": "biomesoplenty:pine_slab"
   },
   "pattern": [
     "S#S"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:yellow_biomesoplenty_pine_fancy_seat_back"
   }
 }

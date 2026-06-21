@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:potion_shelves",
   "key": {
-    "#": {
-      "item": "minecraft:glass_bottle"
-    },
-    "P": {
-      "item": "biomesoplenty:mahogany_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:mahogany_slab"
-    }
+    "#": "minecraft:glass_bottle",
+    "P": "biomesoplenty:mahogany_planks",
+    "S": "biomesoplenty:mahogany_slab"
   },
   "pattern": [
     "SSS",
@@ -25,7 +19,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_mahogany_potion_shelf"
   }
 }

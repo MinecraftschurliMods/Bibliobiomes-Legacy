@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:fancy_armor_stands",
   "key": {
-    "R": {
-      "tag": "c:rods/wooden"
-    },
-    "S": {
-      "item": "biomesoplenty:redwood_slab"
-    }
+    "R": "#c:rods/wooden",
+    "S": "biomesoplenty:redwood_slab"
   },
   "pattern": [
     " R ",
@@ -22,7 +18,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_redwood_fancy_armor_stand"
   }
 }

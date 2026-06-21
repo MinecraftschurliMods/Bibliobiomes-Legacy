@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:tables",
   "key": {
-    "P": {
-      "item": "biomesoplenty:palm_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:palm_slab"
-    }
+    "P": "biomesoplenty:palm_planks",
+    "S": "biomesoplenty:palm_slab"
   },
   "pattern": [
     "SSS",
@@ -22,7 +18,6 @@
     " P "
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_palm_table"
   }
 }

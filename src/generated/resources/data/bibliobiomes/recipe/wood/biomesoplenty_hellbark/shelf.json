@@ -9,12 +9,8 @@
   "category": "misc",
   "group": "bibliocraft:shelves",
   "key": {
-    "P": {
-      "item": "biomesoplenty:hellbark_planks"
-    },
-    "S": {
-      "item": "biomesoplenty:hellbark_slab"
-    }
+    "P": "biomesoplenty:hellbark_planks",
+    "S": "biomesoplenty:hellbark_slab"
   },
   "pattern": [
     "SSS",
@@ -22,7 +18,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:biomesoplenty_hellbark_shelf"
   }
 }

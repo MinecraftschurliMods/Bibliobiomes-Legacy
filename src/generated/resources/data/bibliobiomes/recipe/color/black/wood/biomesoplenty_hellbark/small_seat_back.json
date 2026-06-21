@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:small_seat_backs",
   "key": {
-    "S": {
-      "item": "biomesoplenty:hellbark_slab"
-    },
-    "W": {
-      "item": "minecraft:black_wool"
-    }
+    "S": "biomesoplenty:hellbark_slab",
+    "W": "minecraft:black_wool"
   },
   "pattern": [
     "W",
     "S"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:black_biomesoplenty_hellbark_small_seat_back"
   }
 }

@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:tall_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:cyan_biomesoplenty_empyreal_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:empyreal_slab"
-    }
+    "#": "bibliocraft:cyan_biomesoplenty_empyreal_flat_seat_back",
+    "S": "biomesoplenty:empyreal_slab"
   },
   "pattern": [
     "S",
     "#"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:cyan_biomesoplenty_empyreal_tall_seat_back"
   }
 }

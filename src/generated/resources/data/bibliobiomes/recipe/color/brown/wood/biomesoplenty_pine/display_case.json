@@ -9,15 +9,9 @@
   "category": "misc",
   "group": "bibliocraft:display_cases",
   "key": {
-    "G": {
-      "tag": "c:glass_blocks"
-    },
-    "S": {
-      "item": "biomesoplenty:pine_slab"
-    },
-    "W": {
-      "item": "minecraft:brown_wool"
-    }
+    "G": "#c:glass_blocks",
+    "S": "biomesoplenty:pine_slab",
+    "W": "minecraft:brown_wool"
   },
   "pattern": [
     "SGS",
@@ -25,7 +19,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:brown_biomesoplenty_pine_display_case"
   }
 }

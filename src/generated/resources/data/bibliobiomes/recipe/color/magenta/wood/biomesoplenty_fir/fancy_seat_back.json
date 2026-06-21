@@ -9,18 +9,13 @@
   "category": "misc",
   "group": "bibliocraft:fancy_seat_backs",
   "key": {
-    "#": {
-      "item": "bibliocraft:magenta_biomesoplenty_fir_flat_seat_back"
-    },
-    "S": {
-      "item": "biomesoplenty:fir_slab"
-    }
+    "#": "bibliocraft:magenta_biomesoplenty_fir_flat_seat_back",
+    "S": "biomesoplenty:fir_slab"
   },
   "pattern": [
     "S#S"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:magenta_biomesoplenty_fir_fancy_seat_back"
   }
 }

@@ -9,19 +9,14 @@
   "category": "misc",
   "group": "bibliocraft:small_seat_backs",
   "key": {
-    "S": {
-      "item": "biomesoplenty:mahogany_slab"
-    },
-    "W": {
-      "item": "minecraft:gray_wool"
-    }
+    "S": "biomesoplenty:mahogany_slab",
+    "W": "minecraft:gray_wool"
   },
   "pattern": [
     "W",
     "S"
   ],
   "result": {
-    "count": 1,
     "id": "bibliocraft:gray_biomesoplenty_mahogany_small_seat_back"
   }
 }
