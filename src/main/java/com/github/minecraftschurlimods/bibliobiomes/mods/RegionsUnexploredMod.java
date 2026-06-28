@@ -28,7 +28,7 @@ public class RegionsUnexploredMod extends AbstractMod {
         woodType(event, "larch",            RuWoodTypes.LARCH,            RUBlocks.LARCH_WOOD_SET::getPlanks,            RUBlocks.LARCH_WOOD_SET::getSlab,            RUBlocks.LARCH_WOOD_SET::getStairs);
         woodType(event, "magnolia",         RuWoodTypes.MAGNOLIA,         RUBlocks.MAGNOLIA_WOOD_SET::getPlanks,         RUBlocks.MAGNOLIA_WOOD_SET::getSlab,         RUBlocks.MAGNOLIA_WOOD_SET::getStairs);
         woodType(event, "maple",            RuWoodTypes.MAPLE,            RUBlocks.MAPLE_WOOD_SET::getPlanks,            RUBlocks.MAPLE_WOOD_SET::getSlab,            RUBlocks.MAPLE_WOOD_SET::getStairs);
-        woodType(event, "mauve",            RuWoodTypes.MAUVE,            RUBlocks.MAUVE_WOOD_SET::getPlanks,            RUBlocks.MAUVE_WOOD_SET::getSlab,            RUBlocks.MAUVE_WOOD_SET::getStairs);
+        woodType(event, "wisteria",         RuWoodTypes.WISTERIA,         RUBlocks.WISTERIA_WOOD_SET::getPlanks,         RUBlocks.WISTERIA_WOOD_SET::getSlab,         RUBlocks.WISTERIA_WOOD_SET::getStairs);
         woodType(event, "palm",             RuWoodTypes.PALM,             RUBlocks.PALM_WOOD_SET::getPlanks,             RUBlocks.PALM_WOOD_SET::getSlab,             RUBlocks.PALM_WOOD_SET::getStairs);
         woodType(event, "pine",             RuWoodTypes.PINE,             RUBlocks.PINE_WOOD_SET::getPlanks,             RUBlocks.PINE_WOOD_SET::getSlab,             RUBlocks.PINE_WOOD_SET::getStairs);
         woodType(event, "pink_bioshroom",   RuWoodTypes.PINK_BIOSHROOM,   RUBlocks.PINK_BIOSHROOM_WOOD_SET::getPlanks,   RUBlocks.PINK_BIOSHROOM_WOOD_SET::getSlab,   RUBlocks.PINK_BIOSHROOM_WOOD_SET::getStairs);

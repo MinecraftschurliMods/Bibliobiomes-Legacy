@@ -425,11 +425,11 @@
       "required": false
     },
     {
-      "id": "bibliocraft:regions_unexplored_mauve_fancy_sign",
+      "id": "bibliocraft:regions_unexplored_wisteria_fancy_sign",
       "required": false
     },
     {
-      "id": "bibliocraft:regions_unexplored_mauve_wall_fancy_sign",
+      "id": "bibliocraft:regions_unexplored_wisteria_wall_fancy_sign",
       "required": false
     },
     {

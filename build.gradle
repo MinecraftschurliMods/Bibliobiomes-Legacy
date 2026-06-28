@@ -25,18 +25,18 @@ dependencies {
     runtimeOnly "curse.maven:gallery-1173553:6449910"
 
     // Biomes O' Plenty
-    implementation "curse.maven:biomes-o-plenty-220318:7251965"
-    implementation "curse.maven:glitchcore-955399:5660740"
+    implementation "curse.maven:biomes-o-plenty-220318:8288121"
+    implementation "curse.maven:glitchcore-955399:8109792"
     implementation "curse.maven:terrablender-neoforge-940057:6054947"
     // Biomes We've Gone
-    implementation "curse.maven:oh-the-biomes-weve-gone-1070751:7745142"
+    implementation "curse.maven:oh-the-biomes-weve-gone-1070751:8245253"
     implementation "curse.maven:corgilib-693313:7773534"
-    implementation "curse.maven:geckolib-388172:7707149"
-    implementation "curse.maven:oh-the-trees-youll-grow-962544:8002592"
+    implementation "curse.maven:geckolib-388172:8309311"
+    implementation "curse.maven:oh-the-trees-youll-grow-962544:8096180"
     // Regions Unexplored
-    implementation "curse.maven:biolith-852512:8045279"
-    implementation "curse.maven:lithostitched-936015:7980813"
-    implementation "curse.maven:regions-unexplored-659110:7826194"
+    implementation "curse.maven:biolith-852512:8255850"
+    implementation "curse.maven:lithostitched-936015:8321754"
+    implementation "curse.maven:regions-unexplored-659110:8226385"
 }
 
 neoForge {
